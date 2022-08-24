@@ -1,3 +1,0 @@
-[submodule "ktor-chat"]
-	path = ktor-chat
-	url = .//ktor-chat

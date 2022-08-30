@@ -39,7 +39,7 @@ class RoomController(
         }
     }
 
-    suspend fun getAllMesssages(): List<Message> = messageDataSource.getAllMessages()
+    suspend fun getAllMessages(): List<Message> = messageDataSource.getAllMessages()
 
     suspend fun tryDisconnect(username: String){
         members[username]?.socket?.close()
